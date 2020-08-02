@@ -8,47 +8,47 @@
   .SideBar {
     width: 300px;
     color: #ffffff;
-  }
-  .UserName {
+
+    .LeftHeader {
     background-color: #253141;
     height: 100px;
     padding: 0 20px;
     display: flex;
     align-items: center;
-    .UserName__items {
+      &__list {
       height: 20px;
       width: 260px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      .UserName__name {
-        font-size: 16px;
-        color: #ffffff;
-        font-weight: bold;
-      }
-      .UserName__iconlist {
+        .LeftHeader__username  {
+          font-size: 16px;
+          color: #ffffff;
+          font-weight: bold;
+        }
+        .LeftHeader__iconlist {
         display: flex;
         justify-content: end;
-        .UserName__lefticon {
+        .LeftHeader__lefticon {
           color: #ffffff;
         }
-        .UserName__righticon {
+        .LeftHeader__righticon {
           color: #ffffff;
           margin-left: 5px;
         }
       }
     }
   }
-  .SideBar__group-list {
+  .GroupList {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
     padding: 0 20px;
-    .SideBar__group {
+    &__group {
     padding: 20px 0 40px;
-    .SideBar__group-name{
+    .GroupList__group-name {
       font-size: 15px;
     }
-    .SideBar__group-message {
+    .GroupList__group-message {
       margin-top: 5px;
       font-size: 11px;
     }
@@ -56,28 +56,28 @@
   }
 }
 
-.ChatMain {
+.Chat {
   width: calc(100vw - 300px);
   background-color: #ffffff;
-  .GroupInfo {
+  .RightHeader {
     background-color: #ffffff;
     border-bottom: solid 1px #eeeeee;
     padding: 0 40px;
     display: flex;
     justify-content: space-between;
-    .GroupInfo__group {
-      .GroupInfo__group-name {
+    &__group {
+      .RightHeader__group-name {
         font-size: 20px;
         color: #333333;
         margin-top: 35px;
       }
-      .GroupInfo__member-list {
+      .RightHeader__member-list {
         font-size: 12px;
         color: #999999;
         margin-top: 15px;
       }
     }
-    .GroupInfo__edit-button {
+    .RightHeader__edit-button {
       display: block;
       border: 1px solid #38aef0;
       color: #38aef0;
@@ -159,4 +159,5 @@ height: 50px;
       padding: 0 30px;
     }
   }
+}
 }

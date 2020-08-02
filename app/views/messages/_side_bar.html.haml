@@ -1,16 +1,14 @@
 .SideBar
-  .UserName
-    .UserName__items
-      .UserName__name 
+  .LeftHeader
+    .LeftHeader__list
+      .LeftHeader__username 
         masa
-      .UserName__iconlist 
-        .UserName__lefticon 
-          <i class='far fa-edit'></i> 
-        .UserName__righticon 
-          <i class="fas fa-cog"></i>
-  .SideBar__group-list
-    .SideBar__group
-      .SideBar__group-name 
+      .LeftHeader__iconlist 
+        = icon('fas', 'edit', class: "LeftHeader__lefticon")
+        = icon('fas', 'cog', class: "LeftHeader__righticon")
+  .GroupList
+    .GroupList__group
+      .GroupList__group-name 
         techcamp
-      .SideBar__group-message 
+      .GroupList__group-message 
         まだメッセージがありません
