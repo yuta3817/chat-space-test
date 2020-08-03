@@ -10,35 +10,35 @@
     color: #ffffff;
 
     .LeftHeader {
-    background-color: #253141;
-    height: 100px;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-      &__list {
-      height: 20px;
-      width: 260px;
+      background-color: #253141;
+      height: 100px;
+      padding: 0 20px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      &__list {
+        height: 20px;
+        width: 260px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         .LeftHeader__username  {
           font-size: 16px;
           color: #ffffff;
           font-weight: bold;
         }
         .LeftHeader__iconlist {
-        display: flex;
-        justify-content: end;
-        .LeftHeader__lefticon {
-          color: #ffffff;
-        }
-        .LeftHeader__righticon {
-          color: #ffffff;
-          margin-left: 5px;
+          display: flex;
+          justify-content: end;
+          .LeftHeader__lefticon {
+            color: #ffffff;
+          }
+          .LeftHeader__righticon {
+            color: #ffffff;
+            margin-left: 5px;
+          }
         }
       }
     }
-  }
   .GroupList {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
@@ -155,8 +155,8 @@ border: none;
 color: #fff;
 font-size: 16px;
 height: 50px;
-      margin-left: 15px;
-      padding: 0 30px;
+margin-left: 15px;
+padding: 0 30px;
     }
   }
 }
