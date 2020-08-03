@@ -7,30 +7,30 @@
         Member:masa
     = link_to "#", class: "RightHeader__edit-button" do
       Edit
-  .ChatMain__message
-    .ChatMain__message-box
-      .ChatMain__message-info
-        .ChatMain__message-name 
+  .MessageField 
+    .MessageBox
+      .MessageInfo
+        .MessageInfo__user-name
           masa
-        .ChatMain__message-time 
+        .MessageInfo__date
           2019/11/20(Wed) 17:43:01
       .Message
         .Message__content
         おはよう！
-    .ChatMain__message-box
-      .ChatMain__message-info
-        .ChatMain__message-name 
+    .MessageBox
+      .MessageInfo
+        .MessageInfo__user-name
           masa
-        .ChatMain__message-time 
+        .MessageInfo__date 
           2019/11/20(Wed) 17:43:34
       .Message
         .Message__content
         今日は夜から雨
-  .ChatMain__message-form
-    .ChatMain__form
-      .ChatMain__type-message  
-        %input{type: :text, class: "ChatMain__input", placeholder: "type a message"}
-        %label{class: "ChatMain__image"} 
+  .Footer
+    .Form
+      .Form__content  
+        %input{type: :text, class: "Form__input", placeholder: "type a message"}
+        %label{class: "Form__image"} 
           = icon('far', 'image', class: "Form__icon")
           %input{type: "file",  class: "Form__hidden"}
       %input{type: :submit, value: "Send", class: "Form__submit"}
