@@ -24,19 +24,19 @@
         justify-content: space-between;
         align-items: center;
       }
-        &__username {
+        &__userName {
           font-size: 16px;
           color: #ffffff;
           font-weight: bold;
         }
-        &__iconlist {
+        &__iconList {
           display: flex;
           justify-content: end;
         }
-        &__lefticon {
+        &__leftIcon {
             color: #ffffff;
           }
-          &__righticon {
+          &__rightIcon {
             color: #ffffff;
             margin-left: 5px;
           }
