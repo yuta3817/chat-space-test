@@ -33,10 +33,10 @@
           display: flex;
           justify-content: end;
         }
-        &__leftIcon {
+          &__leftIcon a {
             color: #ffffff;
           }
-          &__rightIcon {
+          &__rightIcon a {
             color: #ffffff;
             margin-left: 5px;
           }
@@ -48,6 +48,10 @@
     &__group {
     padding: 20px 0 40px;
     }
+      &__group a {
+        color: #ffffff;
+        text-decoration: none;
+      }
     &__group-name {
       font-size: 15px;
     }
