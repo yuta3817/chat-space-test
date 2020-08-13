@@ -1,13 +1,13 @@
 .SideBar
   .LeftHeader
     .LeftHeader__list
-      .LeftHeader__userName
+      %h3.LeftHeader__userName
         = current_user.name
-      .LeftHeader__iconList
-        .LeftHeader__leftIcon
+      %ul.LeftHeader__iconList
+        %li.LeftHeader__leftIcon
           = link_to '/groups/new' do
             = icon('fas', 'edit')
-        .LeftHeader__rightIcon
+        %li.LeftHeader__rightIcon
           = link_to edit_user_path(current_user) do
             = icon('fas', 'cog')
   .GroupList
