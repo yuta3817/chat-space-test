@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2020_08_09_111445) do
-=======
-ActiveRecord::Schema.define(version: 2020_08_11_165258) do
->>>>>>> bee815e... test
+ActiveRecord::Schema.define(version: 2020_08_12_111445) do
 
   create_table "group_users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "group_id"
