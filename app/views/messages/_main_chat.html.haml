@@ -12,18 +12,6 @@
       Edit
   .MessageField
     = render @messages
-    .MessageBox
-      .MessageInfo
-        .MessageInfo__user-name
-        .MessageInfo__date
-      .Message
-        .Message__content
-    .MessageBox
-      .MessageInfo
-        .MessageInfo__user-name
-        .MessageInfo__date 
-      .Message
-        .Message__content
   .Footer
     = form_with model: [@group, @message], html: {class: "Form"}, local: true do |f|
       .Form__content
